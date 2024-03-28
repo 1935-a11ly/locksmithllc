@@ -9,3 +9,45 @@
     position: relative;
     background-blend-mode: hard-light;
 }
+
+@keyframes scroll2 {
+	0% { transform: translateX(-1800px)}
+	100% { transform: translateX(0px)}
+}
+
+.slider2 {
+	background: transparent;
+	height: 180px;
+	margin: auto;
+	overflow:hidden;
+	position: relative;
+	width: 100%;
+	
+	&::after {
+		right: 0;
+		top: 0;
+		transform: rotateZ(180deg);
+	}
+
+	&::before {
+		left: 0;
+		top: 0;
+	}
+	
+	.slide-track2 {
+    animation-name: scroll2;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+		display: flex;
+		width: calc(440px * 14);
+    &:hover {
+      animation-play-state: paused;
+    }
+	}
+	
+	.slide2 {
+		height: 180px;
+		width: 440px;
+	}
+}
