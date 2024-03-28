@@ -1,0 +1,11 @@
+
+.herosection{
+    background-image: url(".././public/hero1.jpg");
+    background-blend-mode:overlay;
+    height: 940px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-blend-mode: hard-light;
+}
