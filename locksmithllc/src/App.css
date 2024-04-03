@@ -10,6 +10,15 @@
     background-blend-mode: hard-light;
 }
 
+.iphone{
+    background-image: url(".././public/iphone.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:650px;
+	height: 750px;
+    position: relative;
+}
+
 @keyframes scroll2 {
 	0% { transform: translateX(-1800px)}
 	100% { transform: translateX(0px)}
