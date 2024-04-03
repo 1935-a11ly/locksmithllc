@@ -10,7 +10,7 @@ const Contact = () => {
             <div className="grid gap-6 mt-[160px]" id="form">
                 <div className='flex justify-center items-center mb-[30px]'>
                     <img src='./ylogo.png' className=' mx-4 inline w-[50px] h-[50px] rounded-full'></img>
-                    <span className='block text-[#48341c] w-[250px] text-wrap'>Key in a few of your details and connect with a live representativ.</span>
+                    <span className='block text-[#48341c] w-[250px] text-wrap'>Key in a few of your details and connect with a live representative.</span>
                 </div>
                 <div className="w-full flex gap-3">
                     <input className="border-l-[1px] shadow-lg border-[#48341c] capitalize p-3 ex w-full outline-none focus:border-solid focus:border-[1px] border-[#035ec5] placeholder:text-black" type="text" placeholder="First Name" id="First-Name" name="First-Name" required />
