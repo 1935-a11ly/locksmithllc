@@ -9,7 +9,9 @@
     position: relative;
     background-blend-mode: hard-light;
 }
-
+/* .logoheader{
+	font-family: 'Times New Roman', Times, serif;
+} */
 .iphone{
     background-image: url(".././public/iphone.png");
     background-position: center;
