@@ -4,10 +4,11 @@ const About = () => {
   return (
     <div className="bg-gray-100 py-6 px-4 sm:px-6 lg:px-8 pb-32 pt-16">
         <div className="max-w-7xl mx-auto">
-            <h2 className="text-3xl font-bold text-center mb-6 pb-12">About Us</h2>
+            <h2 className="text-5xl text-center mb-6 pb-4">About Us</h2>
+            <h3 className='text-lg mb-6 pb-8 text-center'>A promise that goes beyond a Mission Statement</h3>
             <div className="flex flex-col-reverse md:flex-row items-center justify-center">
-                <div className="md:w-1/2 mb-6 md:mb-0">
-                    <img className="rounded-md shadow-md mx-auto md:mx-0" src="/locksmith-team.jpg" alt="Locksmith Team" />
+                <div className="md:w-1/2 mb-6 md:mb-0 px-12 md:pt-0 sm:pt-14">
+                    <img className="rounded-md shadow-md mx-auto md:mx-0" src="./key.jpg" alt="Locksmith Team" />
                 </div>
                 <div className="md:w-1/2">
                     <p className="text-lg mb-4">
