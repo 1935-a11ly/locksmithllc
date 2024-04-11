@@ -22,10 +22,10 @@ const About = () => {
       }, [])
 
     return (
-        <div id='about' className="bg-gray-100 py-6 px-4 sm:px-6 lg:px-8 pb-32 pt-16 borderrad">
-            <div className="max-w-7xl mx-auto backdrop-blur-sm bg-white rounded-[100px] text-black mt-8 bg-opacity-[0%]">
+        <div id='about' className="bg-[#faf9f6] py-6 px-4 sm:px-6 lg:px-8 pb-32 pt-16 borderrad">
+            <div className="max-w-7xl mx-auto backdrop-blur-[3px] bg-white rounded-[100px] text-black mt-8 bg-opacity-[0%]">
                 <h2 className="text-5xl text-center mb-6 pb-4 opacity-[90%] pt-12">About Us</h2>
-                <h3 className='text-lg mb-6 pb-8 text-center opacity-[70%]'>A promise that goes beyond a Mission Statement</h3>
+                <h3 className='text-lg mb-6 pb-8 text-center opacity-[90%] text-[#48341c]'>A promise that goes beyond a Mission Statement</h3>
                 <div className="flex flex-col-reverse md:flex-row items-center justify-center pb-12">
                     <div className="md:w-1/2 mb-6 md:mb-0 px-0 md:pt-0 sm:pt-14">
                         <img className="p-8 rounded-[60px] mx-auto md:mx-0" src="./key.jpg" alt="Locksmith Team" />

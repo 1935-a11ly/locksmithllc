@@ -3,7 +3,7 @@ import '../../App.css';
 
 const Hero = () => {
     return (
-        <div className='herosection'>
+        <div className='herosection pt-20 pb-20'>
             {/* <div className='flex justify-center items-center mb-2 pt-6'>
             <img src='./ylogo.png' className='w-[130px] h-[130px] rounded-full opacity-[50%]'></img>
             </div>
